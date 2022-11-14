@@ -1,0 +1,107 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #f8f8f8;
+}
+
+#content {
+    flex: 1 0 auto;
+    width: 80%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    padding: 10px;
+}
+
+#content-top {
+    margin-top: 2%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#content-top h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font: 30px Arial;
+    font-weight: bold;
+}
+
+#content-top-row {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font: 15px Arial;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  padding: 5px;
+  height: 20px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  background: #333333;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#artists {
+    font: 15px Arial;
+}
+
+#artist {
+    
+}
+
+#artist img {
+    float: left;
+    width: 25%;
+}
+
+#albums {
+    font: 15px Arial;
+    margin-top: 53%;
+}
+
+#albums h1{
+
+}
+
+#album {
+    
+}
+
+#albums img {
+    float: left;
+    width: 25%;
+}
+
+#tracks {
+    font: 15px Arial;
+    margin-top: 53%;
+}
+
+#track {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid black;
+}
+
+#track img {
+    width: 5%;
+}

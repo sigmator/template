@@ -1,0 +1,117 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#content {
+    flex: 1 0 auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#content-top {
+    
+}
+
+#artists {
+    
+}
+
+#artist-section {
+    padding-bottom: 10px;
+    float: left;
+    width: 16%;
+    text-align: left;
+}
+
+.artist-name {
+    font: 12px Arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+.artist-genre {
+    margin-top: 0px;
+    font: 10px Arial;
+    color: #a9a9a9;
+    line-height: 0px;
+}
+
+.song-artist-name {
+    margin-top: 0px;
+    font: 12px Arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+.song-artist-album {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: 10px Arial;
+    line-height: 0px;
+}
+
+.song-artist-genre {
+    margin-top: 0px;
+    font: 10px Arial;
+    color: #a9a9a9;
+    line-height: 0px;
+}
+
+#artist-section img {
+    display: block;
+    border-radius: 50%;
+    width: 90%;
+}
+
+#songs {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#songs-column {
+    float: left;
+    width: 33%;
+}
+
+#song-section {
+}
+
+#song-section img {
+    padding-right: 10px;
+    float: left;
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+
+#content-top h1 {
+    font: 40px Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content h2 {
+    font: 20px Arial;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#content h2:after {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 80px;
+    border-top: 15px;
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;
+    margin-left: -40px;
+    background: red;
+}
